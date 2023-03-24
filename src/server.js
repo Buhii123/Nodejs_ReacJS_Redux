@@ -16,7 +16,9 @@ initWebRoutes(app);
 connectDB();
 
 
-
+// app.use((req, res) => {
+//     return res.send("Loiasdasd")
+// })
 let port = process.env.PORT || 3000;
 
 app.listen(port, () => {
